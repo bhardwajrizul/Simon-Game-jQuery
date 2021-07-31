@@ -86,7 +86,7 @@ function mouseClickCheck(event){
 
 }
 function gameOver() {
-    let wrong = new Audio("sounds/wrong.mp3");
+    let wrong = new Audio("/sounds/wrong.mp3");
     wrong.play();
     $("body").addClass("gameOver");
     setTimeout(function() {
@@ -108,19 +108,19 @@ function playSound(event) {
     buttonColor = event;
     switch (buttonColor) {
         case "red":
-            let red = new Audio("sounds/red.mp3");
+            let red = new Audio("/sounds/red.mp3");
             red.play();
             break;
         case "green":
-            let green = new Audio("sounds/green.mp3");
+            let green = new Audio("/sounds/green.mp3");
             green.play();
             break;
         case "blue":
-            let blue = new Audio("sounds/blue.mp3");
+            let blue = new Audio("/sounds/blue.mp3");
             blue.play();
             break;
         case "yellow":
-            let yellow = new Audio("sounds/yellow.mp3");
+            let yellow = new Audio("/sounds/yellow.mp3");
             yellow.play();
             break;
         default:
