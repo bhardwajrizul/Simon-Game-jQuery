@@ -13,7 +13,6 @@ $(document).keypress(function(event){
         displayNewColor();
         gameStart();
     }
-    console.log(event.kecode);
 })
 
 
